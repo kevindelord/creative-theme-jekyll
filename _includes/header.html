@@ -1,8 +1,11 @@
 <header>
     <div class="header-content">
+        <video playsinline autoplay muted poster="../img/header.jpeg" id="bgvideo" x="960" y="540">
+            <source src="img/seignosse_light.mp4" type="video/mp4">
+        </video>
         <div class="header-content-inner">
             <h1>{{ site.t.sections.header.title[page.lang] }}</h1>
-            <hr>
+            <hr class="light">
             <p>{{ site.t.sections.header.subtitle[page.lang] }}</p>
             <a href="#booking" class="btn btn-primary-action btn-xl page-scroll">{{ site.t.sections.header.action[page.lang] }}</a>
         </div>
