@@ -26,12 +26,30 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: white;
                 font-size: 16px;
                 margin-bottom: 50px;
             }
         }
     }
+
+    video#bgvideo {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        /*z-index: 0;*/
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url('../img/header.jpeg') no-repeat;
+        background-size: cover;
+    }
+
     @media (min-width: $min-screen-width) {
         min-height: 100%;
         .header-content {
