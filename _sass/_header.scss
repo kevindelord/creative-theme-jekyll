@@ -6,7 +6,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    /*background-image: url('../img/header.jpeg');*/
+    background-image: url('../img/header.jpeg');
     text-align: center;
     color: white;
     .header-content {
@@ -34,19 +34,19 @@ header {
     }
 
     video#bgvideo {
-        position: fixed;
+        position: relative;
         top: 50%;
         left: 50%;
         min-width: 100%;
         min-height: 100%;
         width: auto;
         height: auto;
-        z-index: -100;
+        /*z-index: 0;*/
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
-        /*background: url('../img/header.jpeg') no-repeat;*/
+        background: url('../img/header.jpeg') no-repeat;
         background-size: cover;
     }
 
