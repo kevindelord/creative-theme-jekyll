@@ -38,6 +38,11 @@ Netlify has been configured to deploy the website at every git commit/push on th
 | Bootstrap | 4.4.1 | https://getbootstrap.com/ |
 | creative | n/a | https://github.com/BlackrockDigital/startbootstrap-creative |
 
+## User Reviews
+
+The widgets for the user reviews are generated from:
+- https://dash.elfsight.com/apps/
+
 ## TODO
 
 ### General
