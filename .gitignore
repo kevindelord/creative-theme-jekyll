@@ -4,10 +4,6 @@ _site/
 .jekyll-metadata
 .jekyll-cache
 
-# Ignore the config file that's used for gh-pages.
-_config.gh-pages.yml
-Gemfile.lock
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -28,7 +28,6 @@
 	}
 
 	/* Border */
-	background-color: #F0F0F0; /* Light Gray */
 	border-radius: 10px;
 	border: 4px double #B0B0B0; /* Dark Gray */
 
@@ -42,4 +41,8 @@
 
 .booking-partner:hover {
 	background-color: #CDCDCD; /* Mid Gray*/
+}
+
+.reviews {
+	margin-top: 20px;
 }
