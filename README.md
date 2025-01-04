@@ -50,23 +50,24 @@ The widgets for the user reviews are generated from:
 - [x] Activities: style should be calculated, not imported from markdown
 - [x] Update Bootstrap / Creative
 - [x] Create favicon
+- [ ] Add images to the sitemap.xml
 
 ### SEO
 - [x] Generate a sitemap.xml for better indexing
 - [x] Add google analytics
 - [x] Only one h1 element
 - [x] Create a 404 page
-- [ ] Google Search Console: secure domain name
+- [ ] Google Search Console: secure domain name (?)
 - [x] Add localized meta description
 - [ ] Make sure all images have a verbose file name.
 	- [x] Booking (x3)
 	- [x] Activities (x6)
-	- [ ] Gallery (x9?)
+	- [x] Gallery (x9?)
 	- [ ] Header background
-- [ ] Add an alt-tag to all pictures
+- [x] Add an alt-tag to all pictures
 	- [x] Booking (x3)
 	- [x] Activities (x6)
-	- [ ] Gallery (x9?)
+	- [x] Gallery (x9?)
 	- [ ] Header background
 
 ### Navigation Bar
@@ -77,7 +78,7 @@ The widgets for the user reviews are generated from:
 ### Booking
 - [x] Rename About section into Booking with lower part with a calendar (or 'coming soon').
 - [x] Prepare booking area with a coming soon.
-- [ ] Find out how to integrate booking info to a gmaps POI.
+- [x] Find out how to integrate booking info to a gmaps POI.
 
 ### Map
 - [x] Add a new section to show a map location
