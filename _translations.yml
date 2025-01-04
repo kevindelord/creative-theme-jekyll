@@ -524,9 +524,9 @@ t:
         de: "Mehr Informationen gibt es im Willkommensheft"
       file:
         link:
-          en: "booklet_lepenon-surfhouse_SD.pdf"
-          fr: "livret_accueil_lepenon-surfhouse_SD.pdf"
-          de: "booklet_lepenon-surfhouse_SD.pdf"
+          en: "booklet_lepenon-surfhouse.pdf"
+          fr: "livret_accueil_lepenon-surfhouse.pdf"
+          de: "booklet_lepenon-surfhouse.pdf"
         info:
           en: "Booklet"
           fr: "Livret d'accueil"
