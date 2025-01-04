@@ -4,7 +4,7 @@
 available_languages:
   1:
     lang: "fr"
-    link: "/"
+    link: "/fr/"
     text: "🇫🇷 Français"
   2:
     lang: en
