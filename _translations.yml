@@ -284,7 +284,10 @@ t:
         de: "Galerie"
       images:
         1:
-          image: "5.jpeg"
+          image:
+            en: "5.jpeg"
+            fr: "5.jpeg"
+            de: "5.jpeg"
           title:
             en: "The sunny terrace"
             fr: "La terrasse ensoleillée"
@@ -294,7 +297,10 @@ t:
             fr: ""
             de: ""
         2:
-          image: "2.jpeg"
+          image:
+            en: "2.jpeg"
+            fr: "2.jpeg"
+            de: "2.jpeg"
           title:
             en: "The bedroom"
             fr: "La chambre"
@@ -304,7 +310,10 @@ t:
             fr: ""
             de: ""
         3:
-          image: "3.jpeg"
+          image:
+            en: "3.jpeg"
+            fr: "3.jpeg"
+            de: "3.jpeg"
           title:
             en: "The new kitchen"
             fr: "La nouvelle cuisine"
@@ -314,7 +323,10 @@ t:
             fr: ""
             de: ""
         4:
-          image: "4.jpeg"
+          image:
+            en: "4.jpeg"
+            fr: "4.jpeg"
+            de: "4.jpeg"
           title:
             en: "The cosy sofa corner"
             fr: "Le coin canapé"
@@ -324,7 +336,10 @@ t:
             fr: ""
             de: ""
         5:
-          image: "6.jpeg"
+          image:
+            en: "6.jpeg"
+            fr: "6.jpeg"
+            de: "6.jpeg"
           title:
             en: "Directly at the beach"
             fr: "Direct à la plage"
@@ -334,7 +349,10 @@ t:
             fr: ""
             de: ""
         6:
-          image: "1.jpeg"
+          image:
+            en: "1.jpeg"
+            fr: "1.jpeg"
+            de: "1.jpeg"
           title:
             en: "The swimming pool"
             fr: "La piscine"
@@ -344,79 +362,100 @@ t:
             fr: ""
             de: ""
         7:
-          image: "7.jpeg"
+          image:
+            en: "7.jpeg"
+            fr: "7.jpeg"
+            de: "7.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         8:
-          image: "8.jpeg"
+          image:
+            en: "8.jpeg"
+            fr: "8.jpeg"
+            de: "8.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         9:
-          image: "9.jpeg"
+          image:
+            en: "9.jpeg"
+            fr: "9.jpeg"
+            de: "9.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         10:
-          image: "10.jpeg"
+          image:
+            en: "10.jpeg"
+            fr: "10.jpeg"
+            de: "10.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         11:
-          image: "11.jpeg"
+          image:
+            en: "11.jpeg"
+            fr: "11.jpeg"
+            de: "11.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         12:
-          image: "12.jpeg"
+          image:
+            en: "12.jpeg"
+            fr: "12.jpeg"
+            de: "12.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         13:
-          image: "13.jpeg"
+          image:
+            en: "13.jpeg"
+            fr: "13.jpeg"
+            de: "13.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         14:
-          image: "14.jpeg"
+          image:
+            en: "14.jpeg"
+            fr: "14.jpeg"
+            de: "14.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         15:
-          image: "15.jpeg"
+          image:
+            en: "15.jpeg"
+            fr: "15.jpeg"
+            de: "15.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         16:
-          image: "16.jpeg"
+          image:
+            en: "16.jpeg"
+            fr: "16.jpeg"
+            de: "16.jpeg"
           alt:
             en: ""
             fr: ""
             de: ""
         17:
-          image: "17.jpeg"
-          alt:
-            en: ""
-            fr: ""
-            de: ""
-        18:
-          image: "18.jpeg"
-          alt:
-            en: ""
-            fr: ""
-            de: ""
-        19:
-          image: "19.jpeg"
+          image:
+            en: "17.jpeg"
+            fr: "17.jpeg"
+            de: "17.jpeg"
           alt:
             en: ""
             fr: ""
