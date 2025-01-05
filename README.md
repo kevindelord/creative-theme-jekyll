@@ -49,7 +49,10 @@ The widgets for the user reviews are generated from:
 
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
-- [ ] Add images to the sitemap.xml
+- [ ] Add images to the sitemap.xml (create custom sitemap.xml)
+- [ ] Structured Data for Images: Add schema markup where possible.
+- [ ] Canonical Tags: Avoid duplicate content issues by using canonical tags.
+- [ ] Metadata Localization: Titles, meta descriptions, and Open Graph tags should match the target language.
 - [ ] Make sure all images have a verbose file name.
 	- [x] Booking (x3)
 	- [x] Activities (x6)
