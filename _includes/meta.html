@@ -8,6 +8,10 @@
         gtag('config', 'G-3GSGPLPD9R');
     </script>
 
+    <!-- Language Redirection -->
+    <script src="{{ '/js/language-redirect.js' | relative_url }}"></script>
+
+    <!-- General meta info -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +19,12 @@
     <meta name="author" content=" {{ site.github_link }}">
 
     <title>{{ site.title }}</title>
+
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/fr/" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/de/" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/fr/" />
 
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css">

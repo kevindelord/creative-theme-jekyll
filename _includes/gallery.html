@@ -13,7 +13,7 @@
             {% assign thumbnail = site.t.sections.gallery.images[index] %}
             <div class="col-6 col-md-4">
                 <a href="javascript:void(0)" id="{{ index }}" class="portfolio-box" onclick="openSlideshow(this.id)">
-                    <img data-src="/img/gallery/thumb/{{ thumbnail.image }}" class="img-lazy img-responsive" alt="{{ thumbnail.alt[page.lang] }}">
+                    <img data-src="/img/gallery/thumb/{{ page.lang }}/{{ thumbnail.image[page.lang] }}" class="img-lazy img-responsive" alt="{{ thumbnail.alt[page.lang] }}">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -31,7 +31,7 @@
                     {% for index in (1..site.t.sections.gallery.images.size) offset: 5 limit:9 %}
                     {% assign thumbnail = site.t.sections.gallery.images[index] %}
                         <div class="col-4">
-                            <img data-src="/img/gallery/thumb/{{ thumbnail.image }}" class="img-lazy img-responsive" alt="{{ thumbnail.alt[ page.lang] }}">
+                            <img data-src="/img/gallery/thumb/{{ page.lang }}/{{ thumbnail.image[page.lang] }}" class="img-lazy img-responsive" alt="{{ thumbnail.alt[ page.lang] }}">
                         </div>
                     {% endfor %}
                     </div>

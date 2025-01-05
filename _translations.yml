@@ -4,7 +4,7 @@
 available_languages:
   1:
     lang: "fr"
-    link: "/"
+    link: "/fr/"
     text: "🇫🇷 Français"
   2:
     lang: en
@@ -284,143 +284,213 @@ t:
         de: "Galerie"
       images:
         1:
-          image: "5.jpeg"
+          image:
+            en: "sunny-terrace-vacation-rental-beach.jpeg"
+            fr: "terrasse-soleil-location-vacances-plage.jpeg"
+            de: "sonnenterrasse-ferienwohnung-strand.jpeg"
           title:
             en: "The sunny terrace"
             fr: "La terrasse ensoleillée"
             de: "Die Sonnenterrasse"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Sunny terrace with a surfboard rack"
+            fr: "Terrasse ensoleillée avec rack de rangement pour planches de surf"
+            de: "Sonnige Terrasse mit Surfbrettständer"
         2:
-          image: "2.jpeg"
+          image:
+            en: "bedroom-vacation-rental-beach.jpeg"
+            fr: "grand-lit-chambre-location-vacances-plage.jpeg"
+            de: "schlafzimmer-ferienwohnung-strand.jpeg"
           title:
             en: "The bedroom"
             fr: "La chambre"
             de: "Das Schlafzimmer"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Large bed in the bedroom with a view of the forest near the beach"
+            fr: "Grand lit dans la chambre avec vue sur la forêt près de la plage"
+            de: "Großes Bett im Schlafzimmer mit Blick auf den Wald in der Nähe des Strandes"
         3:
-          image: "3.jpeg"
+          image:
+            en: "new-kitchen-vacation-rental-beach.jpeg"
+            fr: "cuisine-neuve-location-vacances-plage.jpeg"
+            de: "neue-kueche-ferienwohnung-strand.jpeg"
           title:
             en: "The new kitchen"
             fr: "La nouvelle cuisine"
             de: "Die neue Küche"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Fully furnished and bright new kitchen near the beach"
+            fr: "Cuisine neuve entièrement aménagée et lumineuse près de la plage"
+            de: "Vollständig eingerichtete und helle neue Küche in Strandnähe"
         4:
-          image: "4.jpeg"
+          image:
+            en: "cosy-sofa-corner-vacation-rental-beach.jpeg"
+            fr: "canape-comfortable-location-vacances-plage.jpeg"
+            de: "gemuetliche-sofa-ecke-ferienwohnung-strand.jpeg"
           title:
             en: "The cosy sofa corner"
             fr: "Le coin canapé"
             de: "Die gemütliche Sofaecke"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Comfortable sofa with a coffee table"
+            fr: "Canapé confortable avec table basse"
+            de: "Bequeme Couch mit Couchtisch"
         5:
-          image: "6.jpeg"
+          image:
+            en: "direct-access-beach-surfer-vacation-rental.jpeg"
+            fr: "access-direct-plage-surfeur-location-vacances.jpeg"
+            de: "direkt-zugang-strand-surfer-ferienwohnung.jpeg"
           title:
             en: "Directly at the beach"
             fr: "Direct à la plage"
             de: "Direkt am Strand"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Surfers on the direct beach access"
+            fr: "Surfeurs sur l'accès direct à la plage"
+            de: "Surfer am direkten Zugang zum Strand"
         6:
-          image: "1.jpeg"
+          image:
+            en: "large-swimming-pool-vacation-rental-beach.jpeg"
+            fr: "grande-piscine-location-vacances-plage.jpeg"
+            de: "grosses-pool-ferienwohnung-strand.jpeg"
           title:
             en: "The swimming pool"
             fr: "La piscine"
             de: "Das Schwimmbad"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Large private swimming pool for the residence"
+            fr: "Grande piscine privée pour la résidence"
+            de: "Großes privates Schwimmbad für die Residenz"
         7:
-          image: "7.jpeg"
+          image:
+            en: "tv-hd-living-room-vacation-rental-beach.jpeg"
+            fr: "tv-television-hd-salon-location-vacances-plage.jpeg"
+            de: "tv-hd-wohnzimmer-ferienwohnung-strand.jpeg"
+          title:
+            en: "The living room with HD TV"
+            fr: "Le salon avec TV HD"
+            de: "Das Wohnzimmer mit HD-TV"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "HD TV in the main living area"
+            fr: "TV HD dans la pièce principale"
+            de: "HD-TV im Hauptraum"
         8:
-          image: "8.jpeg"
+          image:
+            en: "bathroom-shower-vacation-rental-beach.jpeg"
+            fr: "douche-salle-de-bain-location-vacances-plage.jpeg"
+            de: "dusche-bad-ferienwohnung-strand.jpeg"
+          title:
+            en: "The bathroom"
+            fr: "La salle de bain"
+            de: "Das Badezimmer"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Bathroom with shower and toilet"
+            fr: "Salle de bain avec douche et toilettes"
+            de: "Badezimmer mit Dusche und Toilette"
         9:
-          image: "9.jpeg"
+          image:
+            en: "sunny-terrace-lounge-vacation-rental-beach.jpeg"
+            fr: "terrasse-soleil-transat-location-vacances-plage.jpeg"
+            de: "sonnige-terrasse-lounge-ferienwohnung-strand.jpeg"
+          title:
+            en: "Relaxing on the sunny terrace"
+            fr: "Espace détente sur la terrasse ensoleillée"
+            de: "Entspannung auf der sonnigen Terrasse"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Relaxation space on the sunny terrace"
+            fr: "Espace détente sur la terrasse ensoleillée"
+            de: "Entspannungsbereich auf der sonnigen Terrasse"
         10:
-          image: "10.jpeg"
+          image:
+            en: "living-room-kitchen-sofa-vacation-rental-beach.jpeg"
+            fr: "salon-cuisine-canape-location-vacances-plage.jpeg"
+            de: "wohnzimmer-kueche-sofa-ferienwohnung-strand.jpeg"
+          title:
+            en: "Living room with kitchen and dining table"
+            fr: "Grand salon avec cuisine et table à manger"
+            de: "Großes Wohnzimmer mit Küche und Esstisch"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Large living room with kitchen and dining table"
+            fr: "Grand salon avec cuisine et table à manger"
+            de: "Großes Wohnzimmer mit Küche und Esstisch"
         11:
-          image: "11.jpeg"
+          image:
+            en: "direct-access-forest-vacation-rental-beach.jpeg"
+            fr: "access-direct-foret-location-vacances-plage.jpeg"
+            de: "direkt-zugang-wald-ferienwohnung-strand.jpeg"
+          title:
+            en: "Direct access to the forest"
+            fr: "Accès direct à la forêt"
+            de: "Direkter Zugang zum Wald"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Direct access to the forest in front of the house"
+            fr: "Accès direct à la forêt devant le logement"
+            de: "Direkter Zugang zum Wald vor dem Haus"
         12:
-          image: "12.jpeg"
+          image:
+            en: "storage-cabinet-guitar-vacation-rental-beach.jpeg"
+            fr: "armoire-rangement-guitare-location-vacances-plage.jpeg"
+            de: "aufbewahrungsschrank-gitarre-ferienwohnung-strand.jpeg"
+          title:
+            en: "Storage cabinet"
+            fr: "Armoires de rangement"
+            de: "Lagerschrank"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Storage cabinets for organizing"
+            fr: "Armoires de rangement"
+            de: "Lagerschränke zur Organisation"
         13:
-          image: "13.jpeg"
+          image:
+            en: "window-forest-vacation-rental-beach.jpeg"
+            fr: "fenetre-foret-location-vacances-plage.jpeg"
+            de: "fenster-wald-ferienwohnung-strand.jpeg"
+          title:
+            en: "The view of the forest"
+            fr: "Vue directe sur la forêt depuis la chambre"
+            de: "Blick auf den Wald"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Direct view of the forest from the bedroom"
+            fr: "Vue directe sur la forêt depuis la chambre"
+            de: "Direkter Blick auf den Wald vom Schlafzimmer aus"
         14:
-          image: "14.jpeg"
+          image:
+            en: "terrace-forest-vacation-rental-beach.jpeg"
+            fr: "terrasse-foret-location-vacances-plage.jpeg"
+            de: "terrasse-wald-ferienwohnung-strand.jpeg"
+          title:
+            en: "The terrace facing the forest"
+            fr: "La terrasse devant la forêt"
+            de: "Die Terrasse vor dem Wald"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "The terrace in front of the forest"
+            fr: "La terrasse devant la forêt"
+            de: "Die Terrasse vor dem Wald"
         15:
-          image: "15.jpeg"
+          image:
+            en: "surfboard-rack-storage-vacation-rental-beach.jpeg"
+            fr: "rangement-planches-surf-location-vacances-plage.jpeg"
+            de: "surfbrettstaender-lagerung-ferienwohnung-strand.jpeg"
+          title:
+            en: "Surfboard rack"
+            fr: "Surfrack pour rangement de planches de surf"
+            de: "Surfbrettständer"
           alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Surfboard rack for storing surfboards"
+            fr: "Surfrack pour rangement de planches de surf"
+            de: "Surfbrettständer zum Aufbewahren von Surfboards"
         16:
-          image: "16.jpeg"
+          image:
+            en: "sunset-beach-vacation-rental-beach.jpeg"
+            fr: "couche-soleil-location-vacances-plage.jpeg"
+            de: "sonnenuntergang-strand-ferienwohnung-strand.jpeg"
+          title:
+            en: "The sunset at the beach"
+            fr: "Couché de soleil sur la plage"
+            de: "Der Sonnenuntergang am Strand"
           alt:
-            en: ""
-            fr: ""
-            de: ""
-        17:
-          image: "17.jpeg"
-          alt:
-            en: ""
-            fr: ""
-            de: ""
-        18:
-          image: "18.jpeg"
-          alt:
-            en: ""
-            fr: ""
-            de: ""
-        19:
-          image: "19.jpeg"
-          alt:
-            en: ""
-            fr: ""
-            de: ""
+            en: "Sunset over the beach"
+            fr: "Couché de soleil sur la plage"
+            de: "Sonnenuntergang am Strand"
       slideshow:
         en: "Open photo gallery"
         fr: "Voir toutes les photos"
@@ -454,9 +524,9 @@ t:
         de: "Mehr Informationen gibt es im Willkommensheft"
       file:
         link:
-          en: "booklet_lepenon-surfhouse_SD.pdf"
-          fr: "livret_accueil_lepenon-surfhouse_SD.pdf"
-          de: "booklet_lepenon-surfhouse_SD.pdf"
+          en: "booklet_lepenon-surfhouse.pdf"
+          fr: "livret_accueil_lepenon-surfhouse.pdf"
+          de: "booklet_lepenon-surfhouse.pdf"
         info:
           en: "Booklet"
           fr: "Livret d'accueil"
