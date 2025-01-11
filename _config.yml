@@ -9,6 +9,13 @@ phone_number: 0033682185951
 phone_display: "+33 (0)6 82 18 59 51"
 github_link: "kevindelord/lepenon-surfhouse"
 
+# Postal Address
+rental_residence: "Résidence Atlantique, Apt. 5"
+rental_streetAddress: "9 Avenue Chambrelent"
+rental_addressLocality: "Seignosse"
+rental_postalCode: "40510"
+rental_addressCountry: "France"
+
 # Build settings
 markdown: kramdown
 

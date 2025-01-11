@@ -54,7 +54,7 @@ The widgets for the user reviews are generated from:
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
 - [ ] Add images to the sitemap.xml (create custom sitemap.xml)
-- [ ] Structured Data for Images: Add schema markup where possible.
+- [x] Structured Data for Images: Add schema markup where possible.
 - [ ] Metadata Localization: Titles, meta descriptions, and Open Graph tags should match the target language.
 
 ### Gallery

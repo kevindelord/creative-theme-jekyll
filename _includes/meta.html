@@ -48,4 +48,56 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/fav/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- SEO: Structure Data for images -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LodgingBusiness",
+            "name": "{{ site.title }}",
+            "description": "{{ site.t.description[page.lang] }}",
+            "url": "{{ site.url }}",
+            "sameAs": [
+                {% assign airbnb = site.t.sections.booking.partners[1] %}
+                "{{ airbnb.link }}"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{ site.rental_streetAddress }}",
+                "addressLocality": "{{ site.rental_addressLocality }}",
+                "postalCode": "{{ site.rental_postalCode }}",
+                "addressCountry": "{{ site.rental_addressCountry }}"
+            },
+            "amenityFeature": [
+                {% for index in (1..site.t.sections.services.items.size) %}
+                {% assign service = site.t.sections.services.items[index] %}
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "{{ service.title[page.lang] | escape }}",
+                    "value": true
+                }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+            ],
+            "telephone": "{{ site.phone_display }}",
+            "checkinTime": "15:00",
+            "checkoutTime": "11:00",
+            "image": [
+                {% for index in (1..site.t.sections.gallery.images.size) %}
+                {% assign image = site.t.sections.gallery.images[index] %}
+                  {
+                    "@type": "ImageObject",
+                    "description": "{{ image.title[page.lang] | escape }}",
+                    "caption": "{{ image.alt[page.lang] | escape }}",
+                    "contentUrl": "{{ site.url | absolute_url }}/img/gallery/large/{{ page.lang }}/{{ image.image[page.lang] }}",
+                    "inLanguage": "{{ page.lang }}"
+                  }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+            ],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 43.7121658,
+                "longitude": -1.4314518
+            }
+        }
+    </script>
 </head>
