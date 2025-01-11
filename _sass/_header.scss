@@ -6,7 +6,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpeg');
+    background-image: url('../img/gallery/large/fr/canape-comfortable-location-vacances-plage.jpeg');
     text-align: center;
     color: white;
     .header-content {
@@ -20,13 +20,13 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                background-color: $theme-dark-highlight;
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
