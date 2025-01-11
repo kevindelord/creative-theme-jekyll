@@ -1,4 +1,9 @@
-<header>
+<header id="header">
+    <script>
+        // Reload background image with SEO filename
+        const path = '../img/gallery/large/{{ page.lang }}/{{ site.t.sections.header.background[page.lang] }}';
+        document.getElementById('header').style.backgroundImage=`url(${path})`;
+    </script>
     <div class="header-content">
         <div class="header-content-inner">
             <h1>{{ site.t.sections.header.title[page.lang] }}</h1>

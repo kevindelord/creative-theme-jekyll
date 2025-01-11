@@ -23,7 +23,13 @@ Cons
 
 Netlify has been configured to deploy the website at every git commit/push on the `master` branch.
 
-## Dependencies
+## Local Development
+
+- Open Docker on your runnning maching
+- From the root, run the script: `./scripts/docker.sh`
+- Access the website at: http://localhost:3000
+
+## Javascript Dependencies
 
 | Plugin | Version | URL |
 |-|-|-|
@@ -45,24 +51,12 @@ The widgets for the user reviews are generated from:
 
 ## TODO
 
-### General
-
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
 - [ ] Add images to the sitemap.xml (create custom sitemap.xml)
 - [ ] Structured Data for Images: Add schema markup where possible.
 - [ ] Canonical Tags: Avoid duplicate content issues by using canonical tags.
 - [ ] Metadata Localization: Titles, meta descriptions, and Open Graph tags should match the target language.
-- [ ] Make sure all images have a verbose file name.
-	- [x] Booking (x3)
-	- [x] Activities (x6)
-	- [x] Gallery (x9?)
-	- [ ] Header background
-- [x] Add an alt-tag to all pictures
-	- [x] Booking (x3)
-	- [x] Activities (x6)
-	- [x] Gallery (x9?)
-	- [ ] Header background
 
 ### Gallery
-- [ ] Add new photos to the gallery
+- [ ] Rewrite the import script to work with Docker and the current localisation

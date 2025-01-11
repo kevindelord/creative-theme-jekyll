@@ -1,4 +1,6 @@
-// js/language-redirect.js
+/*!
+ * Custom Javascript to redirect user based on language settings.
+ */
 
 document.addEventListener("DOMContentLoaded", function() {
   // Get browser language

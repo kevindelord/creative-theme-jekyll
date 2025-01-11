@@ -60,6 +60,10 @@ t:
         en: "Book now!"
         fr: "Réserver dès maintenant!"
         de: "Jetzt buchen!"
+      background:
+        en: "cosy-sofa-corner-vacation-rental-beach.jpeg"
+        fr: "canape-comfortable-location-vacances-plage.jpeg"
+        de: "gemuetliche-sofa-ecke-ferienwohnung-strand.jpeg"
     booking:
       title:
         en: "Booking"
