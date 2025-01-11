@@ -20,6 +20,9 @@
 
     <title>{{ site.title }}</title>
 
+    <!-- SEO: Canonical page to default FR localisation -->
+    <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/" />
+
     <!-- hreflang tags -->
     <link rel="alternate" hreflang="fr" href="{{ site.url }}/fr/" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
