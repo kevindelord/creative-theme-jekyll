@@ -57,3 +57,6 @@ The widgets for the user reviews are generated from:
 - [ ] Structured Data for Images: Add schema markup where possible.
 - [ ] Canonical Tags: Avoid duplicate content issues by using canonical tags.
 - [ ] Metadata Localization: Titles, meta descriptions, and Open Graph tags should match the target language.
+
+### Gallery
+- [ ] Rewrite the import script to work with Docker and the current localisation
