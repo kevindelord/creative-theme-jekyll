@@ -65,4 +65,4 @@ The widgets for the user reviews are generated from:
 	- [ ] Header background
 
 ### Gallery
-- [ ] Add new photos to the gallery
+- [x] Add new photos to the gallery
