@@ -1,0 +1,36 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<!-- Localizes URLs -->
+	{% for index in (1..site.available_languages.size) %}
+	{% assign config = site.available_languages[index] %}
+	<url>
+		<loc>{{ site.url }}{{ config.link }}</loc>
+	</url>
+	{% endfor %}
+	<!-- base url -->
+	<url>
+		<loc>{{ site.url }}</loc>
+	</url>
+	<!-- 404 -->
+	<url>
+		<loc>{{ site.url }}/404.html</loc>
+	</url>
+	<!-- Google Analytics -->
+	<url>
+		<loc>{{ site.url }}/google77813761ed9a41e1.html</loc>
+		<lastmod>2023-11-13T08:13:59-06:00</lastmod>
+	</url>
+	<!-- Booktlet PDFs -->
+	<url>
+		<loc>{{ site.url }}/rsc/{{ site.t.sections.booklet.file.link.fr }}</loc>
+		<lastmod>2025-01-05T14:30:40-06:00</lastmod>
+	</url>
+	<url>
+		<loc>{{ site.url }}/rsc/{{ site.t.sections.booklet.file.link.en }}</loc>
+		<lastmod>2025-01-05T14:30:40-06:00</lastmod>
+	</url>
+</urlset>
