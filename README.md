@@ -54,6 +54,11 @@ The widgets for the user reviews are generated from:
 
 To validate the structured data for SEO within the JSON-LD, use the online tool: https://developers.google.com/search/docs/appearance/structured-data
 
+To validate the sitemap.xml use the following tool:
+- https://www.xml-sitemaps.com/validate-xml-sitemap.html
+- https://www.mysitemapgenerator.com/service/check.html
+- https://search.google.com/search-console/sitemaps/
+
 ## TODO
 
 ### SEO
