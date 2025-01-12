@@ -15,6 +15,8 @@ rental_streetAddress: "9 Avenue Chambrelent"
 rental_addressLocality: "Seignosse"
 rental_postalCode: "40510"
 rental_addressCountry: "France"
+rental_geo_latitude: 43.7121658
+rental_geo_longitude: -1.4314518
 
 # Build settings
 markdown: kramdown

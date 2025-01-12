@@ -200,6 +200,55 @@ t:
         en: "Amenities"
         fr: "Aménagement"
         de: "Ausstattung"
+      seo:
+        1:
+          en: "Air Conditioning"
+          fr: "Climatisation"
+          de: "Klimaanlage"
+        2:
+          en: "Heating"
+          fr: "Chauffage"
+          de: "Heizung"
+        3:
+          en: "TV"
+          fr: "Télévision"
+          de: "Fernseher"
+        4:
+          en: "Washer"
+          fr: "Lave-linge"
+          de: "Waschmaschine"
+        5:
+          en: "Refrigerator"
+          fr: "Réfrigérateur"
+          de: "Kühlschrank"
+        6:
+          en: "Microwave"
+          fr: "Micro-ondes"
+          de: "Mikrowelle"
+        7:
+          en: "Dishwasher"
+          fr: "Lave-vaisselle"
+          de: "Geschirrspüler"
+        8:
+          en: "Coffee Maker"
+          fr: "Machine à café"
+          de: "Kaffeemaschine"
+        9:
+          en: "Toaster"
+          fr: "Grille-pain"
+          de: "Toaster"
+        10:
+          en: "Beach Access"
+          fr: "Accès à la plage"
+          de: "Strandzugang"
+        11:
+          en: "Barbecue Grill"
+          fr: "Barbecue"
+          de: "Grill"
+        12:
+          en: "Smoke Detector"
+          fr: "Détecteur de fumée"
+          de: "Rauchmelder"
       items:
         1:
           icon: "fa-utensils"
