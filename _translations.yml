@@ -86,9 +86,9 @@ t:
       partners:
         1:
           image:
-            en: "booking-reservation-buchen-partner-airbnb.png"
-            fr: "booking-reservation-buchen-partner-airbnb.png"
-            de: "booking-reservation-buchen-partner-airbnb.png"
+            en: "book-surf-house-seignosse-airbnb.png"
+            fr: "reservez-surf-house-seignosse-airbnb.png"
+            de: "buchen-surf-house-seignosse-airbnb.png"
           link: "https://airbnb.com/h/lepenon-surfhouse"
           text:
             en: "Book now on Airbnb!"
@@ -100,9 +100,9 @@ t:
             de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf Airbnb"
         2:
           image:
-            en: "booking-reservation-buchen-partner-madame-keys.png"
-            fr: "booking-reservation-buchen-partner-madame-keys.png"
-            de: "booking-reservation-buchen-partner-madame-keys.png"
+            en: "book-surf-house-seignosse-madamekeys.png"
+            fr: "reservez-surf-house-seignosse-madamekeys.png"
+            de: "buchen-surf-house-seignosse-madamekeys.png"
           link: "https://www.madamekeys.com"
           text:
             en: "or contact us directly:"

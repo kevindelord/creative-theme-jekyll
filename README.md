@@ -63,7 +63,6 @@ To validate the sitemap.xml use the following tool:
 
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
-- [ ] Localize images for partners and activities
 
 ### Gallery
 - [ ] Rewrite the import script to work with Docker and the current localisation for SEO
