@@ -49,14 +49,16 @@ Netlify has been configured to deploy the website at every git commit/push on th
 The widgets for the user reviews are generated from:
 - https://dash.elfsight.com/apps/
 
+
+## SEO
+
+To validate the structured data for SEO within the JSON-LD, use the online tool: https://developers.google.com/search/docs/appearance/structured-data
+
 ## TODO
 
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
 - [ ] Add images to the sitemap.xml (create custom sitemap.xml)
-- [ ] Structured Data for Images: Add schema markup where possible.
-- [ ] Canonical Tags: Avoid duplicate content issues by using canonical tags.
-- [ ] Metadata Localization: Titles, meta descriptions, and Open Graph tags should match the target language.
 
 ### Gallery
-- [ ] Rewrite the import script to work with Docker and the current localisation
+- [ ] Rewrite the import script to work with Docker and the current localisation for SEO

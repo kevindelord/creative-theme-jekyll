@@ -5,7 +5,12 @@
 				<div class="maps-info">
 					<h2 class="section-heading">{{ site.t.sections.map.title[page.lang] }}</h2>
 					<hr class="primary">
-					<p>{{ site.t.sections.map.subtitle[page.lang] }}</p>
+					<p>
+						{{ site.rental_residence }} <br />
+						{{ site.rental_streetAddress }}<br />
+						{{ site.rental_postalCode }} {{ site.rental_addressLocality}}<br />
+						{{ site.rental_addressCountry }}
+					</p>
 				</div>
 			</div>
 			<div class="col-sm map-col-element google-maps">

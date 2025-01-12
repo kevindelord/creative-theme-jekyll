@@ -20,6 +20,9 @@
 
     <title>{{ site.title }}</title>
 
+    <!-- SEO: Canonical page to default FR localisation -->
+    <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/" />
+
     <!-- hreflang tags -->
     <link rel="alternate" hreflang="fr" href="{{ site.url }}/fr/" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
@@ -45,4 +48,74 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/fav/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph for Sharing on Social Media -->
+    <meta property="og:title" content="{{ site.title }} - {{ site.t.sections.header.title[page.lang] }}">
+    <meta property="og:description" content="{{ site.t.description[page.lang] }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.url | absolute_url }}/img/gallery/large/{{ page.lang }}/{{ site.t.sections.header.background[page.lang] }}">
+    <meta property="og:type" content="place">
+    <meta property="place:location:latitude" content="{{ site.rental_geo_latitude }}">
+    <meta property="place:location:longitude" content="{{ site.rental_geo_longitude }}">
+
+    <!-- SEO: Structure Data for images -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LodgingBusiness",
+            "name": "{{ site.title }}",
+            "description": "{{ site.t.description[page.lang] }}",
+            "url": "{{ site.url }}",
+            "sameAs": [
+                {% assign airbnb = site.t.sections.booking.partners[1] %}
+                "{{ airbnb.link }}"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{ site.rental_streetAddress }}",
+                "addressLocality": "{{ site.rental_addressLocality }}",
+                "postalCode": "{{ site.rental_postalCode }}",
+                "addressCountry": "{{ site.rental_addressCountry }}"
+            },
+            "amenityFeature": [
+                {% for index in (1..site.t.sections.services.items.size) %}
+                {% assign service = site.t.sections.services.items[index] %}
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "{{ service.title[page.lang] | escape }}",
+                    "value": true
+                },
+                {% endfor %}
+                {% for index in (1..site.t.sections.services.seo.size) %}
+                {% assign feature = site.t.sections.services.seo[index] %}
+                {
+                    "@type": "LocationFeatureSpecification",
+                    "name": "{{ feature[page.lang] | escape }}",
+                    "value": true
+                }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+            ],
+            "telephone": "{{ site.phone_display }}",
+            "checkinTime": "15:00",
+            "checkoutTime": "11:00",
+            "image": [
+                {% for index in (1..site.t.sections.gallery.images.size) %}
+                {% assign image = site.t.sections.gallery.images[index] %}
+                  {
+                    "@type": "ImageObject",
+                    "description": "{{ image.title[page.lang] | escape }}",
+                    "caption": "{{ image.alt[page.lang] | escape }}",
+                    "contentUrl": "{{ site.url | absolute_url }}/img/gallery/large/{{ page.lang }}/{{ image.image[page.lang] }}",
+                    "inLanguage": "{{ page.lang }}"
+                  }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+            ],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": {{ site.rental_geo_latitude }},
+                "longitude": {{ site.rental_geo_longitude }}
+            }
+        }
+    </script>
 </head>
