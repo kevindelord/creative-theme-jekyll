@@ -9,7 +9,7 @@
     </script>
 
     <!-- Language Redirection -->
-    <script src="{{ '/js/language-redirect.js' | relative_url }}"></script>
+    <script type="module" src="{{ '/js/language-redirect.js' | relative_url }}"></script>
 
     <!-- General meta info -->
     <meta charset="utf-8">
@@ -67,6 +67,7 @@
             "name": "{{ site.title }}",
             "description": "{{ site.t.description[page.lang] }}",
             "url": "{{ site.url }}",
+            "priceRange": "{{ site.t.sections.booking.priceRange[page.lang] }}",
             "sameAs": [
                 {% assign airbnb = site.t.sections.booking.partners[1] %}
                 "{{ airbnb.link }}"
@@ -76,7 +77,7 @@
                 "streetAddress": "{{ site.rental_streetAddress }}",
                 "addressLocality": "{{ site.rental_addressLocality }}",
                 "postalCode": "{{ site.rental_postalCode }}",
-                "addressCountry": "{{ site.rental_addressCountry }}"
+                "addressCountry": "{{ site.rental_addressCountryCode }}"
             },
             "amenityFeature": [
                 {% for index in (1..site.t.sections.services.items.size) %}
@@ -106,7 +107,7 @@
                     "@type": "ImageObject",
                     "description": "{{ image.title[page.lang] | escape }}",
                     "caption": "{{ image.alt[page.lang] | escape }}",
-                    "contentUrl": "{{ site.url | absolute_url }}/img/gallery/large/{{ page.lang }}/{{ image.image[page.lang] }}",
+                    "url": "{{ site.url | absolute_url }}/img/gallery/large/{{ page.lang }}/{{ image.image[page.lang] }}",
                     "inLanguage": "{{ page.lang }}"
                   }{% if forloop.last == false %},{% endif %}
                 {% endfor %}
