@@ -23,10 +23,10 @@ lang: fr
 		<!-- Update localisation -->
 		<script type="module">
 			import { currentLanguage } from '/js/getCurrentLanguage.js';
-			const lang = currentLanguage()
+			const currentLang = currentLanguage()
 
 			// Avoid useless refresh if already on the default language
-			if (lang != 'fr') {
+			if (currentLang != 'fr') {
 				const data = {
 				  description: {
 					en: "{{ site.t.error.description.en | escape }}",
@@ -38,8 +38,8 @@ lang: fr
 				  }
 				};
 
-				document.getElementById("notFoundDescription").textContent = data.description[lang];
-				document.getElementById("notFoundRedirect").textContent = data.redirect[lang];
+				document.getElementById("notFoundDescription").textContent = data.description[currentLang];
+				document.getElementById("notFoundRedirect").textContent = data.redirect[currentLang];
 			}
 		</script>
 	</body>
