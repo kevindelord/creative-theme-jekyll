@@ -85,7 +85,10 @@ t:
         de: "90 € - 250 € pro Nacht"
       partners:
         1:
-          image: "booking-reservation-buchen-partner-airbnb.png"
+          image:
+            en: "book-surf-house-seignosse-airbnb.png"
+            fr: "reservez-surf-house-seignosse-airbnb.png"
+            de: "buchen-surf-house-seignosse-airbnb.png"
           link: "https://airbnb.com/h/lepenon-surfhouse"
           text:
             en: "Book now on Airbnb!"
@@ -96,7 +99,10 @@ t:
             fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse directement sur Airbnb"
             de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf Airbnb"
         2:
-          image: "booking-reservation-buchen-partner-madame-keys.png"
+          image:
+            en: "book-surf-house-seignosse-madamekeys.png"
+            fr: "reservez-surf-house-seignosse-madamekeys.png"
+            de: "buchen-surf-house-seignosse-madamekeys.png"
           link: "https://www.madamekeys.com"
           text:
             en: "or contact us directly:"
@@ -125,7 +131,10 @@ t:
         de: "Aktivitäten"
       items:
         1:
-          image: "surf-beach-nature-plage-strand-sand-sable-dune-wald.jpg"
+          image:
+            en: "surf-beach-le-penon-seignosse-france.jpg"
+            fr: "surf-plage-le-penon-seignosse-france.jpg"
+            de: "surfen-strand-le-penon-seignosse-frankreich.jpg"
           alt:
             en: "Surf at the beach of Le Penon in Seignosse, France. Be close to nature, sand dunes and a pine forest."
             fr: "Surf à la plage du Penon à Seignosse, France. Soyez près de la nature, dunes de sable et une fôret de pins."
@@ -140,7 +149,10 @@ t:
             fr: "A seulement quelques pas se trouve la belle plage du Penon! Et s'il fait trop chaud ou si vous voulez faire du jogging, la forêt de pins est juste en face de la maison."
             de: "In wenigen Schritten bist du am wunderschönen Strand von Le Penon! Und wenn es doch mal zu heiß wird oder du eine Runde joggen willst, bist du genauso schnell im ruhigen Pinienwald."
         2:
-          image: "food-nourriture-bars-restaurants-club-boite-de-nuit-beach-club-essen-lecker-disco.jpg"
+          image:
+            en: "bars-restaurants-le-penon-seignosse-france.jpg"
+            fr: "bars-restaurants-le-penon-seignosse-france.jpg"
+            de: "bars-restaurants-le-penon-seignosse-frankreich.jpg"
           alt:
             en: "Dozens of bars, restaurants, shops and a Beach Club are only a few steps away from your Surf House in Seignosse Le Penon, France."
             fr: "Des dizaines de bars, restaurants, magasins et une boîte de nuit sont à quelques pas de votre Surf House à Seignosse Le Penon, France."
@@ -155,7 +167,10 @@ t:
             fr: "Il est impossible de s'ennuyer sur la place du Penon où se trouve beaucoup de restaurants, magasins, supermarchés, magasins de surf, une pharmacie et surtout le Beach Club de l'Escargot!<br/ >Les mardi, jeudi et dimanche sont les jours de marché au Penon, Seignosse. Parfait pour faire le plein de produit frais!"
             de: "In und um Le Penon gibt es viele weitere Möglichkeiten, den Tag zu verbringen. Bis zum nächsten Platz mit vielen Restaurants und Bars, Geschäften, Supermarkt, Surfshops, Apotheke und dem Beach-Club L'escargot ist es nicht weit.<br />Dienstags, Mittwochs und Sonntags ist Markt in Seignosse Le Penon, und du findest viele frische Angebote!"
         3:
-          image: "skate-surf-kitesurf-skatepark-school-ecole-schule.jpg"
+          image:
+            en: "skatepark-surf-schools-le-penon-seignosse-france.jpg"
+            fr: "skatepark-ecoles-surf-le-penon-seignosse-france.jpg"
+            de: "skatepark-surfschulen-le-penon-seignosse-frankreich.jpg"
           alt:
             en: "There is everything for sports in Seignosse Le Penon, France, with a new skatepark and lots of surf and kitesurf schools."
             fr: "Tout pour le sport avec un nouveau Skatepark et plein d'écoles de surf et de kitesurf sont disponible à Seignosse Le Penon, France"
@@ -170,7 +185,10 @@ t:
             fr: "Entre la place principale et la plage se trouve un tout nouveau Skatepark mais aussi des écoles de surf et de kitesurf, des locations de vélo et un park aquatique pour amuser les plus jeunes."
             de: "Zwischen dem Stadtkern und dem Strand befindet sich ein cooler, ganz neu gestalteter Skatepark. Verschiedene Surfschulen fürs Wellenreiten und Kitesurfen, ein Fahrradverleih und den Wasserpark Atlantic Park kannst du schnell erreichen."
         4:
-          image: "wave-vague-welle-surf-hossegor-spot-surfen.jpg"
+          image:
+            en: "hossegor-surf-spots-southwest-france.jpg"
+            fr: "hossegor-spots-surf-sud-ouest-france.jpg"
+            de: "hossegor-surfspots-suedwest-frankreich.jpg"
           alt:
             en: "All the legendary surfing spots in the South West of France are only a few kilometres away."
             fr: "Tous les spots de surf légendaires du Sud-Ouest de France sont à seulement quelques kilomètres."
@@ -185,7 +203,10 @@ t:
             fr: "Partez pour les célèbres spots de surf de Capbreton ou Hossegor La Gravière & Les Culs Nuls où se déroulent chaque année les compétitions Quicksilver Pro France et Roxy Pro France de la World Surf League! <br />Ou alors vous pouvez facilement rejoindre d'autres grandes plages pour prendre le soleil, nager et surfer comme par exemple les plages des Bourdaines, des Estagnots ou des Casernes."
             de: "Auf zu den berühmten Surfspots von Capbreton oder Hossegor La Gravière & Les Culs Nuls! Hier werden jedes Jahr die Wettbewerbe Quicksilver Pro France und Roxy Pro France der World Surf League ausgetragen!<br />Andere leicht zu erreichende Strände zum Sonnenbaden, Schwimmen und Surfen sind z. B. Plage de Bourdaines, Plage des Estagnots oder Plage des Casernes."
         5:
-          image: "plane-avion-flugzeug-train-access-zugang-cities-villes-staedte.jpg"
+          image:
+            en: "airports-cities-access-seignosse-france.jpg"
+            fr: "aeroports-villes-acces-seignosse-france.jpg"
+            de: "flughaefen-staedte-zugang-seignosse-frankreich.jpg"
           alt:
             en: "Easy access to airports, train stations and other big cities."
             fr: "Facile d'accès vers les aéroports, gares de train et autres grandes villes."
@@ -200,7 +221,10 @@ t:
             fr: "De plus grandes villes comme Dax ou Bayonne sont à environt 35 km. <br />Les aéroports les plus proches sont à Biarritz (44 km), San Sebastián (69 km), Pau (110 km) et Bordeaux (166 km)"
             de: "Größere Städte wie Dax und Bayonne sind ca. 35 km entfernt.<br />Die nächsten Flughäfen findest du in Biarritz (44 km), San Sebastián (69 km), Pau (110 km) und Bordeaux (166 km)."
         6:
-          image: "shaka-good-vibes-only-bonheur-happy-stimmung.jpg"
+          image:
+            en: "good-vibes-surf-house-le-penon-seignosse-france.jpg"
+            fr: "bonnes-vibes-surf-house-le-penon-seignosse-france.jpg"
+            de: "gute-stimmung-surf-house-le-penon-seignosse-frankreich.jpg"
           alt:
             en: "Good vibes only in Le Penon Surf House in Seignosse, France"
             fr: "Uniquement des bonnes vibes au Surf House du Penon à Seignosse, France"
