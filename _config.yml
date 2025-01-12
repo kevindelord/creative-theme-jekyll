@@ -22,9 +22,6 @@ rental_geo_longitude: -1.4314518
 # Build settings
 markdown: kramdown
 
-plugins:
-  - jekyll-sitemap
-
 sass:
   compressed: true
 

@@ -58,7 +58,7 @@ To validate the structured data for SEO within the JSON-LD, use the online tool:
 
 ### SEO
 - [ ] Google Search Console: secure domain name (?)
-- [ ] Add images to the sitemap.xml (create custom sitemap.xml)
+- [ ] Localize images for partners and activities
 
 ### Gallery
 - [ ] Rewrite the import script to work with Docker and the current localisation for SEO
