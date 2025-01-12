@@ -5,7 +5,8 @@
 function currentLanguage() {
     // Get browser language
     const userLang = navigator.language || navigator.userLanguage;
-    const langCode = userLang.split('-')[0]; // Extract primary language code (e.g., 'en' from 'en-US')
+    // Extract primary language code (e.g., 'en' from 'en-US')
+    const langCode = userLang.split('-')[0];
 
     // Define supported languages and their paths
     // Fallback to 'fr' if no match
