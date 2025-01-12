@@ -1,5 +1,6 @@
 ---
 permalink: /404.html
+lang: fr
 ---
 
 <!DOCTYPE html>
@@ -12,12 +13,35 @@ permalink: /404.html
 			<div class="header-content">
 				<div class="header-content-inner">
 					<h2>{{ site.t.error.title }}</h2>
-					<h3>{{ site.t.error.description }}</h3>
+					<h3 id=notFoundDescription>{{ site.t.error.description[page.lang] }}</h3>
 					<hr>
-					<a href="{{ site.url }}" class="btn btn-primary-action btn-xl">{{ site.t.error.redirect }}</a>
+					<a href="{{ site.url }}" id=notFoundRedirect class="btn btn-primary-action btn-xl">{{ site.t.error.redirect[page.lang] }}</a>
 				</div>
 			</div>
 		</header>
+
+		<!-- Update localisation -->
+		<script type="module">
+			import { currentLanguage } from '/js/getCurrentLanguage.js';
+			const lang = currentLanguage()
+
+			// Avoid useless refresh if already on the default language
+			if (lang != 'fr') {
+				const data = {
+				  description: {
+					en: "{{ site.t.error.description.en | escape }}",
+					de: "{{ site.t.error.description.de | escape }}"
+				  },
+				  redirect: {
+					en: "{{ site.t.error.redirect.en | escape }}",
+					de: "{{ site.t.error.redirect.de | escape }}"
+				  }
+				};
+
+				document.getElementById("notFoundDescription").textContent = data.description[lang];
+				document.getElementById("notFoundRedirect").textContent = data.redirect[lang];
+			}
+		</script>
 	</body>
 </html>
 

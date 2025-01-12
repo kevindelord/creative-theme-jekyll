@@ -19,8 +19,14 @@ available_languages:
 t:
   error:
     title: "404"
-    description: "This page cannot be found."
-    redirect: "Get back to safety"
+    description:
+      en: "This page cannot be found."
+      fr: "Cette page est introuvable."
+      de: "Diese Seite konnte nicht gefunden werden."
+    redirect:
+      en: "Get back to homepage"
+      fr: "Retour à l'accueil"
+      de: "Zurück zur Startseite"
   description:
     en: "Le Penon Surf House is situated in Seignosse on the French Atlantic coast and offers all you need for your vacation at the beach."
     fr: "Le Penon Surf House est située à Seignosse sur la côte atlantique française et vous offre tout ce dont vous avez besoin pour vos vacances à la plage."
