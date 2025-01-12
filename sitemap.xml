@@ -9,10 +9,10 @@ layout: none
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-	<!-- Localizes URLs -->
 	{% assign imageSizesText = "thumb,large" %}
 	{% assign imageSizes = imageSizesText | split: "," %}
 
+	<!-- Localizes URLs -->
 	{% for index in (1..site.available_languages.size) %}
 	{% assign config = site.available_languages[index] %}
 	<url>
