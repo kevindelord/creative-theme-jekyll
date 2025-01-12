@@ -9,28 +9,39 @@ layout: none
 	{% assign config = site.available_languages[index] %}
 	<url>
 		<loc>{{ site.url }}{{ config.link }}</loc>
+		<priority>0.8</priority>
+		<changefreq>yearly</changefreq>
 	</url>
 	{% endfor %}
 	<!-- base url -->
 	<url>
 		<loc>{{ site.url }}</loc>
+		<priority>1.0</priority>
+		<changefreq>yearly</changefreq>
 	</url>
 	<!-- 404 -->
 	<url>
 		<loc>{{ site.url }}/404.html</loc>
+		<priority>0.3</priority>
+		<changefreq>never</changefreq>
 	</url>
 	<!-- Google Analytics -->
 	<url>
 		<loc>{{ site.url }}/google77813761ed9a41e1.html</loc>
-		<lastmod>2023-11-13T08:13:59-06:00</lastmod>
+		<lastmod>2023-11-13</lastmod>
+		<changefreq>never</changefreq>
 	</url>
 	<!-- Booktlet PDFs -->
 	<url>
 		<loc>{{ site.url }}/rsc/{{ site.t.sections.booklet.file.link.fr }}</loc>
-		<lastmod>2025-01-05T14:30:40-06:00</lastmod>
+		<lastmod>2025-01-05</lastmod>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
 	</url>
 	<url>
 		<loc>{{ site.url }}/rsc/{{ site.t.sections.booklet.file.link.en }}</loc>
-		<lastmod>2025-01-05T14:30:40-06:00</lastmod>
+		<lastmod>2025-01-05</lastmod>
+		<priority>0.5</priority>
+		<changefreq>yearly</changefreq>
 	</url>
 </urlset>
