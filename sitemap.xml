@@ -3,21 +3,47 @@ layout: none
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
 	<!-- Localizes URLs -->
+	{% assign imageSizesText = "thumb,large" %}
+	{% assign imageSizes = imageSizesText | split: "," %}
+
 	{% for index in (1..site.available_languages.size) %}
 	{% assign config = site.available_languages[index] %}
 	<url>
 		<loc>{{ site.url }}{{ config.link }}</loc>
 		<priority>0.8</priority>
 		<changefreq>yearly</changefreq>
+		<!-- Slideshow Gallery Images -->
+		{% for size in imageSizes %}
+		{% for imageIndex in (1..site.t.sections.gallery.images.size) %}
+		{% assign imageData = site.t.sections.gallery.images[imageIndex] %}
+		<image:image>
+			<image:loc>{{ site.url }}/img/gallery/{{ size }}/{{ config.lang }}/{{ imageData.image[config.lang] }}</image:loc>
+		</image:image>
+		{% endfor %}
+		{% endfor %}
 	</url>
 	{% endfor %}
-	<!-- base url -->
+	<!-- Base url -->
 	<url>
 		<loc>{{ site.url }}</loc>
 		<priority>1.0</priority>
 		<changefreq>yearly</changefreq>
+		<!-- Slideshow Gallery Images - Use default locale: FR -->
+		{% for size in imageSizes %}
+		{% for imageIndex in (1..site.t.sections.gallery.images.size) %}
+		{% assign imageData = site.t.sections.gallery.images[imageIndex] %}
+		<image:image>
+			<image:loc>{{ site.url }}/img/gallery/{{ size }}/fr/{{ imageData.image.fr }}</image:loc>
+		</image:image>
+		{% endfor %}
+		{% endfor %}
 	</url>
 	<!-- 404 -->
 	<url>
